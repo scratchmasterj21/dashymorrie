@@ -1,0 +1,272 @@
+pageInfo:
+  title: '💻 Computer Class Dashboard '
+  description: ''
+  navLinks: []
+  logo: ''
+  footerText: Computer Class Dashboard 2025
+appConfig:
+  disableConfigurationForNonAdmin: true
+  auth:
+    enableGuestAccess: true
+    users:
+      - user: john
+        hash: c5f38d00449bdef0236c5f803f4a96e942c7702573b895a20508fcee809985dd
+        type: admin
+    enableOidc: false
+    oidc: {}
+    enableHeaderAuth: false
+    headerAuth:
+      userHeader: REMOTE_USER
+      proxyWhitelist: []
+    enableKeycloak: false
+  theme: dashy-docs
+  layout: horizontal
+  iconSize: large
+  startingView: minimal
+  defaultOpeningMethod: newtab
+  statusCheck: false
+  statusCheckInterval: 0
+  backgroundImg: https://i.imgur.com/G20z4MI.jpg
+  faviconApi: allesedv
+  routingMode: history
+  enableMultiTasking: false
+  widgetsAlwaysUseProxy: false
+  webSearch:
+    disableWebSearch: false
+    searchEngine: custom
+    openingMethod: modal
+    searchBangs: {}
+    customSearchEngine: search.gfa-scratchlab.com
+  enableFontAwesome: true
+  enableMaterialDesignIcons: false
+  hideComponents:
+    hideHeading: false
+    hideNav: true
+    hideSearch: true
+    hideSettings: true
+    hideFooter: true
+  showSplashScreen: false
+  preventWriteToDisk: false
+  preventLocalSave: false
+  disableConfiguration: false
+  allowConfigEdit: true
+  enableServiceWorker: false
+  disableContextMenu: false
+  disableUpdateChecks: false
+  disableSmartSort: false
+  enableErrorReporting: false
+  customColors:
+    dashy-docs:
+      primary: '#f5f6f7'
+      background: '#202020'
+      background-darker: '#5c90eb'
+sections:
+  - name: 1.General
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Computer Class Website
+        description: Computer Class Lessons
+        icon: >-
+          https://www.shutterstock.com/image-vector/elearning-concept-logo-learning-online-600nw-472019431.jpg
+        url: https://sites.google.com/felice.ed.jp/computerclass/home
+        target: newtab
+        statusCheck: true
+        id: 0_797_computerclasswebsite
+      - title: Google Classroom
+        description: Activities and Student Work
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png
+        url: https://classroom.google.com/u/0/
+        target: newtab
+        statusCheck: true
+        id: 1_797_googleclassroom
+      - title: Felice Search
+        description: Felice Google Search
+        icon: https://i.imgur.com/OKKtilZ.png
+        url: https://felice-search-engine.vercel.app/
+        target: newtab
+        statusCheck: true
+        id: 2_797_felicesearch
+    icon: 🤖
+  - name: 2.Mouse Practice
+    icon: 🖱️
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: 1. Mouse Practice
+        description: Practice Your Mouse Skills
+        icon: https://cdn-icons-png.flaticon.com/512/8123/8123279.png
+        url: https://mousepractice.gfa-scratchlab.com/
+        target: newtab
+        statusCheck: true
+        id: 0_1460_mousepractice
+      - title: 2. Mouse Accuracy
+        description: Improve Mouse Accuracy
+        icon: >-
+          https://cdn6.aptoide.com/imgs/d/c/a/dcaa5d9c2def075c62be312ccb08f227_icon.png
+        url: https://mouseaccuracy.com/
+        target: newtab
+        statusCheck: true
+        id: 1_1460_mouseaccuracy
+      - title: 3. Dragon Drop
+        description: Drag n Drop the dragon
+        icon: >-
+          https://play-lh.googleusercontent.com/aMMsrOtVbIHGe4osyvmgYC9Or9mGqRNPemHTcq8euF7SXzRYh7NJqb4QE0uDj2fcdeY=w240-h480-rw
+        url: https://www.roomrecess.com/games/DragonDrop/play.html
+        target: newtab
+        statusCheck: true
+        id: 2_1460_dragondrop
+  - name: 3.Typing
+    icon: ⌨️
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: 1. Letter Practice
+        description: Keyboard Letter Practice
+        icon: >-
+          https://images.vexels.com/media/users/3/136262/isolated/preview/e04bd9042f1695f0844fbe935b858d9c-keyboard-flat-icon.png
+        url: https://keyboard.gfa-scratchlab.com/
+        target: newtab
+        statusCheck: true
+        id: 3_732_letterpractice
+      - title: 2. Typetastic
+        description: Free Typing Practice
+        icon: >-
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-vPuA9npI5JEY8xgPOBu2Z3R87ZHRs6f1UA&s
+        url: https://typetastic.com/learn.html#unit1
+        target: newtab
+        statusCheck: true
+        id: 0_732_typetastic
+      - title: 3. Gunma Felice Typing Club
+        description: Typing Lessons
+        icon: >-
+          https://assets.clever.com/resource-icons/apps/51e882aa7e05062f54007801/icon_f36db5e.png
+        url: https://gunma-felice.typingclub.com/
+        target: newtab
+        statusCheck: true
+        id: 1_732_gunmafelicetypingclub
+      - title: 4. Monkey Type
+        description: Quick Typing Practice
+        icon: https://avatars.githubusercontent.com/u/104658077?s=280&v=4
+        url: https://gfa-typing.web.app/
+        target: newtab
+        statusCheck: true
+        id: 2_732_monkeytype
+  - name: 4.Programming
+    icon: 👨‍💻
+    items:
+      - title: Turbo Scratch
+        description: Scratch Programming
+        icon: >-
+          https://appimage.github.io/database/TurboWarp/icons/512x512/turbowarp-desktop.png
+        url: https://scratch.gfa-scratchlab.com/
+        target: newtab
+        statusCheck: true
+        id: 0_1253_turboscratch
+      - title: Code.org
+        description: Computer Science Curriculum
+        icon: >-
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbK6in1dem0kHyllObCallT1VhMcfnmD_4Tg&s
+        url: https://studio.code.org/users/sign_in
+        target: newtab
+        statusCheck: true
+        id: 1_1253_codeorg
+      - title: Lego Spike
+        description: Web version of Lego Spike
+        icon: >-
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOcOY9Ap0UbDOlbRW3YibqrcjCffp4dC29cQ&s
+        url: https://spike.legoeducation.com/
+        target: newtab
+        statusCheck: true
+        id: 2_1253_legospike
+      - title: Google Sites
+        description: Make a Website
+        icon: https://img.icons8.com/color/512/google-sites--v2.png
+        url: https://sites.google.com/?tgif=c
+        target: newtab
+        statusCheck: true
+        id: 3_1253_googlesites
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+  - name: 5.Designing & Internet Safety
+    icon: 🎨🌐
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Canva
+        description: Unleash your creativity
+        icon: https://freelogopng.com/images/all_img/1656733807canva-icon-png.png
+        url: https://www.canva.com/
+        target: newtab
+        id: 0_2614_canva
+      - title: Internet Awesome
+        description: Internet Safety Game
+        icon: >-
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyxNOm7jjXkRQvVAptcuT5SjEG_tNLvK7w9g&s
+        url: https://beinternetawesome.withgoogle.com/en_us/interland
+        target: newtab
+        statusCheck: true
+        id: 1_2614_internetawesome
+  - name: 6.Productivity Tools
+    icon: 📈
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Google Docs
+        description: Create Documents
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Google_Docs_logo_%282014-2020%29.svg/1481px-Google_Docs_logo_%282014-2020%29.svg.png
+        url: https://docs.google.com/document/u/0/?tgif=d
+        target: newtab
+        statusCheck: true
+        id: 0_1963_googledocs
+      - title: Google Sheets
+        description: Create Spreadsheets
+        icon: >-
+          https://static.wikia.nocookie.net/google/images/c/c8/Google_Sheets_logo_%282014-2020%29.svg.png/revision/latest?cb=20210203193228
+        url: https://docs.google.com/spreadsheets/u/0/?tgif=c
+        target: newtab
+        statusCheck: true
+        id: 1_1963_googlesheets
+  - name: 7.AI - Machine Learning
+    icon: 🇦🇮
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Teachable Machine by Google
+        description: 'Machine Learning '
+        icon: >-
+          https://cdn-1.webcatalog.io/catalog/teachable-machine/teachable-machine-icon-filled-256.png?v=1719392793780
+        url: https://teachablemachine.withgoogle.com/
+        target: newtab
+        statusCheck: true
+        id: 0_1889_teachablemachinebygoogle
