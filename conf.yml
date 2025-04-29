@@ -101,7 +101,28 @@ sections:
         target: newtab
         id: 3_1361_jsfiddle
     icon: 🔰
-  - name: 2. Challenges
+  - name: 2. Youtube Tutorials
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: HTML Basics
+        description: Html Basics Youtube
+        url: >-
+          https://www.youtube.com/playlist?list=PLP9IO4UYNF0VdAajP_5pYG-jG2JRrG72s
+        target: newtab
+        statusCheck: true
+        id: 0_1877_htmlbasics
+      - title: HTML Crash Course
+        description: 1 hour Crash Course
+        url: https://youtu.be/qz0aGYrrlhU?si=TVbxk3dTxcV2fG8J
+        target: newtab
+        statusCheck: true
+        id: 1_1877_htmlcrashcourse
+  - name: 3. Challenges
     displayData:
       sortBy: default
       rows: 1
@@ -123,24 +144,4 @@ sections:
         target: newtab
         statusCheck: true
         id: 1_1142_htmlandcsschallenge
-  - name: 3. Youtube Tutorials
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: true
-      hideForGuests: false
-    items:
-      - title: HTML Basics
-        description: Html Basics Youtube
-        url: >-
-          https://www.youtube.com/playlist?list=PLP9IO4UYNF0VdAajP_5pYG-jG2JRrG72s
-        target: newtab
-        statusCheck: true
-        id: 0_1877_htmlbasics
-      - title: HTML Crash Course
-        description: 1 hour Crash Course
-        url: https://youtu.be/qz0aGYrrlhU?si=TVbxk3dTxcV2fG8J
-        target: newtab
-        statusCheck: true
-        id: 1_1877_htmlcrashcourse
+
